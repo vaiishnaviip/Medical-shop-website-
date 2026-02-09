@@ -65,8 +65,11 @@
 <body>
 
 <header>
-  <h1>Shree Medical Store</h1>
-  <p>Your Health, Our Priority</p>
+  <h1>ABC Medical Store</h1>
+  <p>Your trusted neighborhood pharmacy</p>
+  <p style="color: yellow; font-weight: bold;">
+    ⚠️ DEMO WEBSITE – FOR PREVIEW ONLY
+  </p>
 </header>
 
 <section>
@@ -89,12 +92,14 @@
 
 <section>
   <h2>Contact Us</h2>
-  <p><strong>Phone:</strong> 9876543210</p>
+  <p>📞 Phone: Demo Number</p>
   <p><strong>Timings:</strong> 9:00 AM – 10:00 PM (All Days)</p>
 
   <div class="buttons">
     <a class="call" href="tel:9876543210">Call Now</a>
-    <a class="whatsapp" href="https://wa.me/919876543210" target="_blank">WhatsApp</a>
+    <a class="btn" href="#" onclick="alert('This is a demo website. Contact developer for real site.')">
+  Order on WhatsApp
+</a>
   </div>
 </section>
 
@@ -109,6 +114,22 @@
 <footer>
   © 2026 Shree Medical Store. All Rights Reserved.
 </footer>
+<script>
+  var password = "demo123";
+  var user = prompt("Enter password to view demo:");
 
+  if (user !== password) {
+    document.body.innerHTML =
+      "<h2 style='text-align:center;margin-top:50px;'>Demo locked 🔒<br>Contact developer for access</h2>";
+  }
+<script>
+  var password = "demo123";
+  var user = prompt("Enter password to view demo:");
+
+  if (user !== password) {
+    document.body.innerHTML =
+      "<h2 style='text-align:center;margin-top:50px;'>Demo locked 🔒<br>Contact developer for access</h2>";
+  }
+</script>
 </body>
 </html>
